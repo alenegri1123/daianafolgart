@@ -35,47 +35,49 @@ header {
 }
 
 .logo {
-    max-width: 300px;
-    max-height: 600px;
+    max-width: 800px;
+    max-height: 800px;
     padding: 5px;
+    margin: 25px;
     display: flex;
     justify-content: center;
     position: relative;
-    width: 50%;
+    width: 80%;
     top: 5%;
 }
 
-header .logo-home .texto-logo  {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: end;
-    position: absolute;
-    width: 50%;
-    top: 300px;
-}
 
 h2 {
     color: darkslateblue;
     font-family: 'Amatic SC';    
     text-align: center;
-    font-size: 18px;
+    font-size: 80px;
+    font-weight: bold;
 }
 
 /* ::::::::::::::::: MAIN ::::::::::::::::::: */
 
 main {
     width: 100%;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+   
 }
 
 main .imagen-fondo {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
+    width: 50%;
+        
 }
+
+main .manos-con-pinceles {
+    width: 50%;    
+}
+
+
+
+
 
 
 /* ::::::::::::::: FOOTER :::::::::::::::::*/ 
