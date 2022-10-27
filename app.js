@@ -30,4 +30,4 @@ app.post('/', function (req, res) {
 })
 
 const port = process.env.PORT || 1733;
-app.listen(port,() => console.log('Servidor corriendo en el puerto${port} '));
+app.listen(port,() => console.log('Servidor corriendo en el puerto 1733'));
