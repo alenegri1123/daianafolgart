@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
 /* font-family: 'Amatic SC', cursive;
 font-family: 'Shadows Into Light', cursive; */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
 
 * {
     margin: 0px;
@@ -13,7 +13,7 @@ font-family: 'Shadows Into Light', cursive; */
 
 body {
     font-family: 'Montserrat';
-    background-color: rgb(250, 208, 208);
+    background-color: #dddddd;
 }
 
 /*:::::::::::::::::::::::HEADER:::::::::::::::::::::::*/
@@ -23,26 +23,63 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
-header .logo-home {
-    width: 30%;
+.logo-home {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.logo {
+    max-width: 300px;
+    max-height: 600px;
+    padding: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    position: relative;
+    width: 50%;
+    top: 5%;
 }
 
-header h1 {
-    color:blueviolet;
-    font-size: 25px;
-    font-family: 'Amatic+SC';
-    text-align: center;
+header .logo-home .texto-logo  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: end;
+    position: absolute;
+    width: 50%;
+    top: 300px;
 }
 
-header h2 {
-    color: violet;
-    font-size: 13px;
-    font-family: 'Shadows+Into+Light';
+h2 {
+    color: darkslateblue;
+    font-family: 'Amatic SC';    
     text-align: center;
+    font-size: 18px;
+}
+
+/* ::::::::::::::::: MAIN ::::::::::::::::::: */
+
+main {
+    width: 100%;
+    
+}
+
+main .imagen-fondo {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+/* ::::::::::::::: FOOTER :::::::::::::::::*/ 
+
+footer {
+    background-color: #e9e9e9;
 }
